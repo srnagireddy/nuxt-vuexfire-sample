@@ -1,7 +1,7 @@
 {
-  "name": "nuxt2-vuexfire-sample",
+  "name": "nuxt-vuexfire-sample",
   "version": "1.0.0",
-  "description": "A sample nuxt 2 project to exemplify vuexfire usage",
+  "description": "A sample nuxt project to exemplify vuexfire usage",
   "author": "X",
   "private": true,
   "scripts": {
@@ -15,7 +15,5 @@
     "nuxt": "^2.0.0",
     "vuexfire": "^3.2.1"
   },
-  "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0"
-  }
+  "devDependencies": {}
 }
