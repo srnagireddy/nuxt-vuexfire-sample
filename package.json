@@ -1,27 +1,21 @@
 {
-  "name": "nuxt-vuexfire-sample",
+  "name": "nuxt2-vuexfire-sample",
   "version": "1.0.0",
-  "description": "Sample using nuxt and vuexfire.",
-  "author": "dummy <dummy@example.com>",
+  "description": "A sample nuxt 2 project to exemplify vuexfire usage",
+  "author": "X",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --hostname 0.0.0.0 --port 3333",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "firebase": "^5.3.0",
-    "nuxt": "^1.0.0",
-    "vuexfire": "^2.3.0"
+    "firebase": "^7.8.1",
+    "nuxt": "^2.0.0",
+    "vuexfire": "^3.2.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "@nuxtjs/vuetify": "^1.0.0"
   }
 }

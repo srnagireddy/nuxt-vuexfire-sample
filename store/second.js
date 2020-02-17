@@ -1,5 +1,6 @@
+/*
 import firebase from '@/plugins/firebase'
-import { firebaseMutations, firebaseAction } from 'vuexfire'
+import { vuexfireMutations, firebaseAction } from 'vuexfire'
 
 const db = firebase.database()
 const itemsRef = db.ref('xxx')
@@ -19,3 +20,4 @@ export const actions = {
     bindFirebaseRef('items', itemsRef)
   })
 }
+*/
